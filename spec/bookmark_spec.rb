@@ -8,10 +8,5 @@ describe Bookmark do
       expect(bookmarks).to include("http://www.destroyallsoftware.com")
       expect(bookmarks).to include("http://www.google.com")
     end
-    # it 'should connect to pg database' do
-    #     bookmarks = Bookmark.all
-    #     expect(bookmarks)
-    # end
-    #
   end
 end
